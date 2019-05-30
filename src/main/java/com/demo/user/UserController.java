@@ -18,7 +18,7 @@ public class UserController {
         List<User> userList = new ArrayList<User>();
 
         for (int i = 0; i < 10; i++){
-            userList.add(new User( i, "Echo"+i, Integer.toString(20+i), "shandong china"));
+            userList.add(new User( i, Integer.toString(20+i), "Echo"+i, "address: shandong china"));
         }
         model.addAttribute("users",userList);
         return "/user/list";
