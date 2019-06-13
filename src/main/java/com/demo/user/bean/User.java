@@ -1,4 +1,4 @@
-package com.demo.user;
+package com.demo.user.bean;
 
 public class User {
     private Integer id;
